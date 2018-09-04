@@ -1,0 +1,126 @@
+#jumboMain{
+	background-image: url('../img/865_night_market.jpg') !important;
+	background-size: cover;
+	height: 400px;
+	opacity: 0.9;
+}
+
+#jumboHeader{
+	color: white !important;
+	margin-top: 50px !important;
+}
+
+.eboard {
+	width: 60%;
+	padding-bottom: 64px;
+}
+
+body{
+	background-color: #ffffff;
+	padding-bottom: 60px;
+}
+
+.contentTitle{
+	border-bottom: solid;
+	padding-left: 3%;
+}
+
+p{
+	padding: 3%;
+	font-family: 'Hind', sans-serif;
+	font-size: 18px;
+}
+
+
+h1{
+	font-family: 'Hind', sans-serif;
+}
+
+bannerText{
+	font-family: 'Playfair Display', serif;
+	font-size: 8vh;
+}
+
+h2{
+	font-family: 'Hind', sans-serif;
+	font-size: 26px;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #ffffff;
+}
+
+.navbar-default {
+  background-color: #c3c1b2;
+  border-color: #c3c1b2;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #ff8210;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #ff8210;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ff8210;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ff8210;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #ff8210;
+  }
